@@ -1,1 +1,116 @@
-/venv
+# -------------------------------
+# PYTHON CORE
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+*.pdb
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --------------------------------
+# ENVIRONMENT & SECRETS
+# --------------------------------
+.env
+*.ini
+*.cfg
+secrets.json
+config.json
+
+# --------------------------------
+# EDITORS & IDE
+# --------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------------
+# LOGS & TEMP FILES
+# --------------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# --------------------------------
+# DATA FILES (for ML / RAG projects)
+# --------------------------------
+*.db
+*.sqlite3
+*.sqlite
+*.pkl
+*.h5
+*.pt
+*.bin
+*.npy
+*.npz
+
+# Vector store folders (FAISS, ChromaDB, etc.)
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+indexes/
+
+# HuggingFace cache
+.cache/
+huggingface/
+hf_cache/
+
+# --------------------------------
+# OS SPECIFIC
+# --------------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------------
+# JUPYTER
+# --------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------
+# FASTAPI / FLASK / STATIC BUILDS
+# --------------------------------
+__pycache__/
+*.db
+*.sqlite
+staticfiles/
+*.pid
+
+# --------------------------------
+# FRONTEND BUILDS (if used)
+# --------------------------------
+node_modules/
+dist/
+build/
+.cache/
